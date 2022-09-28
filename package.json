@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-social-auth",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminshokripwa/Node.js-MySQL-API.git"
+  },
+  "description": "Facebook and Google Authentication with Node.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "*",
+    "bcryptjs": "*",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-flash-messages": "^0.1.1",
+    "express-passport-logout": "^0.1.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node ./App.js",
+    "start:dev": "nodemon ./App.js"
+  },
+  "author": "aminshokripwa",
+  "license": "MIT"
+}
